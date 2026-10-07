@@ -1,9 +1,38 @@
 # RASPBERRY - GRUPO 1
-#### INTEGRANTES: Vercellone Pedro, Baravalle Bautista, Corallo Maximo, Farah Ignacio, Tisano Fabrizio
-#### Profesores Nicolás Falco y Teo Reyna  
-<BR><BR/>
-### Indice
-<BR><BR/>
+#### INTEGRANTES: Vercellone Pedro, Baravalle Bautista, Corallo Maximo, Farah Ignacio, Tisano Fabrizio.
+#### Profesores Nicolás Falco y Teo Reyna.  
+
+**______________________________________________________________________________________________________________**
+
+### Indice:
+
+1. [Introducción](#introducción)
+2. [Objetivo del Informe](#objetivo-del-informe)
+3. [Marco Teórico](#marco-teorico)
+   - [Raspberry Pi](#Raspberry-pi)
+   - [SSID](#ssid-service-set-identifier)
+   - [SSH](#ssh-secure-shell)
+4. [Procedimiento](#procedimiento)
+   - [Instalación de Raspberry Pi Imager](#instalación-de-raspberry-pi-imager)
+   - [Instalación del Sistema Operativo](#instalación-del-sistema-operativo)
+   - [Configuración inicial de la Raspberry Pi](#configuración-inicial-de-la-raspberry-pi)
+   - [Actualización del sistema](#actualización-del-sistema)
+   - [Habilitación de SSH](#habilitación-de-ssh)
+   - [Conexión remota mediante SSH](#conexión-remota-mediante-ssh)
+   - [Comprobaciones de conexión](#comprobaciones-de-conexión)
+5. [Comandos Utilizados](#comandos-utilizados)
+   - [hostname -I](#hostname--i)
+   - [sudo apt update && sudo apt full-upgrade -y](#sudo-apt-update--sudo-apt-full-upgrade--y)
+   - [sudo reboot](#sudo-reboot)
+   - [sudo raspi-config](#sudo-raspi-config)
+   - [ssh](#ssh-grupo1-202619219260218)
+   - [mkdir](#mkdir-carpeta)
+   - [ls](#ls)
+   - [whoami](#whoami)
+   - [wall](#wall-hola-mundo)
+6. [Conclusión](#conclusión)
+
+**______________________________________________________________________________________________________________**
 
 ## Set-Up de Raspberry e instalacion de SSH
 ### Fecha: 2 de octubre de 2026 
@@ -23,6 +52,8 @@ es el nombre público de una red Wi-Fi. Es el identificador que emite el router 
 
 **SSH (Secure Shell):** 
 es un protocolo de red que permite controlar y administrar un equipo de forma remota a través de una terminal de comandos. Su característica más importante es que crea un canal de comunicación totalmente cifrado, lo que garantiza que las contraseñas y las instrucciones viajen de forma segura entre tu computadora y el servidor (o la Raspberry Pi) sin riesgo de ser interceptadas.
+
+**______________________________________________________________________________________________________________**
 
 ### Procedimiento
 - Instalacion de RaspBerry Pi imager en  nuestra laptop 
@@ -74,6 +105,9 @@ Posteriormente:
 ***wall "hola mundo"*** - Muestra "hola mundo" en la terminal de la Raspberry.
 
 - Asi, finalizando la conexion.
+
+
+**______________________________________________________________________________________________________________**
 
     
 ### Comandos utilizados
@@ -133,6 +167,8 @@ Función: comprobar con qué usuario estamos conectados.
 wall: envía un mensaje a las terminales conectadas.
 "hola mundo": mensaje enviado.
 Función: comprobar la comunicación entre sesiones.
+
+**______________________________________________________________________________________________________________**
 
 ### Conclusión
 

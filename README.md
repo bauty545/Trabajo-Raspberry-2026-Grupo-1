@@ -11,4 +11,5 @@
 
 
 Enlace Informe N1: [SetUp Raspberry y SSH](/INFORME1/Informe.md)
+
 Enlace Informe N2: [Instalacion X11 y Xorg](/INFORME2/Informe.md)

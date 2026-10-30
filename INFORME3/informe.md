@@ -89,13 +89,13 @@ La Raspberry Pi se conecta por Ethernet al mismo switch que las notebooks. El sw
 
 - Primero, nos conectamos desde PowerShell de Windows a la Raspberry Pi por SSH usando el usuario del grupo:
 
-`ssh grupo1-2026@192.168.1.1`
+`ssh grupo1-2026@192.168.60.218`
 
 `ssh`: permite administrar remotamente la Raspberry mediante un canal cifrado.
 
 `grupo1-2026`: usuario configurado en la Raspberry.
 
-`192.168.1.1`: dirección IP fija elegida para el servidor.
+`192.168.60.218`: dirección IP fija del servidor.
 
 - Definimos la red `192.168.1.0/24` y reservamos `192.168.1.1` para la Raspberry. Las notebooks recibirían direcciones del rango `192.168.1.100` a `192.168.1.200`.
 
@@ -266,7 +266,7 @@ Concesión obtenida: 23/10/2026 11:56:03
 La concesión expira: 23/10/2026 12:06:03
 ```
 
-Esto demuestra que nuestra notebook recibió automáticamente la dirección `192.168.1.100` del servidor DHCP de la Raspberry. La puerta de enlace quedó vacía porque la práctica se realiza en la misma red LAN, sin necesidad de salir hacia otras redes. En las primeras pruebas Windows mostró `DHCP habilitado: No`; lo resolvimos activando la asignación automática de IPv4 en Ethernet. Los avisos de adaptadores Bluetooth o virtuales desconectados no afectan esta prueba.
+Esto demuestra que nuestra notebook recibió automáticamente la dirección `192.168.1.100` del servidor DHCP de la Raspberry. La puerta de enlace quedó vacía porque la práctica se realiza en la misma red LAN, sin necesidad de salir hacia otras redes. En las primeras pruebas Windows mostró `DHCP habilitado: No`; lo resolvimos activando la asignación automática de IPv4 en Ethernet.
 
 ### 5. Diseño de la red en Packet Tracer
 
